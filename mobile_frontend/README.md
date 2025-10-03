@@ -1,16 +1,29 @@
-# mobile_frontend
+# Ocean Books - Mobile Frontend
 
-A new Flutter project.
+A Flutter app that allows users to browse, search, and order books online.
 
-## Getting Started
+## Features
+- Browse book catalog with image cards and ratings
+- Search by title, author, or tag
+- View book details with description and tags
+- Add items to cart
+- Manage cart quantities and remove items
+- Order summary and mock checkout flow with confirmation screen
 
-This project is a starting point for a Flutter application.
+## Design
+- Theme: Ocean Professional
+- Colors: Primary (#2563EB), Secondary/Success (#F59E0B), Error (#EF4444)
+- Background (#F9FAFB), Surface (#FFFFFF), Text (#111827)
+- Modern, clean, rounded corners, subtle shadows and gradients
 
-A few resources to get you started if this is your first Flutter project:
+## Run locally
+- Flutter 3.29+ / Dart 3.7+
+- From the project root of this container:
+  ```
+  cd mobile_frontend
+  flutter pub get
+  flutter run
+  ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Notes
+- Data uses a mock service for books and orders. Replace with API/database integration when backend is ready.
